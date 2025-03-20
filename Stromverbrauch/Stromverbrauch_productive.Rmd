@@ -4,8 +4,7 @@ author: "José A.F. Monteiro und Tobias Erhardt"
 date: "28.08.2023 (letzte Veränderung am `r format(Sys.time(), '%d.%m.%Y')`)" 
 output: bookdown::html_document2
 ---
-
-
+source("packages.R")
 
 
 ```{r setup, include = FALSE, message=FALSE, warning=FALSE, echo=FALSE}
