@@ -1,5 +1,5 @@
-library(tidyverse)
-library(openxlsx)
+source("~/work/Verbrauchsanalysen/Wasserverbrauch/packages.R")
+
 
 times1000 <- function(x, na.rm = FALSE) x * 1000
 divide1000 <- function(x, na.rm = FALSE) x / 1000
