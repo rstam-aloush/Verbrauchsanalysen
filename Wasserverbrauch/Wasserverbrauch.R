@@ -71,6 +71,6 @@ read.xlsx("Tabelle.xlsx",
       select(Aggregationsstufe, Zeitperiode, Kategorie, Einheitbeschreibung, Menge)
   ) %>%
   arrange(Zeitperiode) %>% 
-  write.xlsx("~/work/Verbrauchsanalysen/Wasserverbrauch/Wasserverbrauch.xlsx")
+  write.xlsx("Wasserverbrauch.xlsx")
 
 file.remove("Tabelle.xlsx")
